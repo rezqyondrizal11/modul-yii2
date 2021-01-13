@@ -26,7 +26,7 @@ echo $form->field($model, 'destination')->widget(Select2::classname(), [
     'data'=>$data,
 ]);
 
-?>
+?> 
 <?= $form->field($model, 'weight')->textInput(['value'=>1000]) ?>
 <?= $form->field($model, 'courier')->dropDownList([
     'jne'=>'JNE',
